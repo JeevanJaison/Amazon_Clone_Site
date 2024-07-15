@@ -98,3 +98,9 @@ nav {
 .nav-text h1 {
     font-size: 14px;
 }
+
+.nav-cart {
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+}

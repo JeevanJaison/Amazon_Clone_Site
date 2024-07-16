@@ -23,7 +23,7 @@ prev_btn.addEventListener('click', (e) => {
 })
 
 next_btn.addEventListener('click', (e) => {
-    if (n > imgs.length) {
+    if (n >= imgs.length - 1) {
         n = 0
     }
     else {
@@ -31,3 +31,12 @@ next_btn.addEventListener('click', (e) => {
     }
     changeSlide();
 })
+
+
+// const np = document.querySelectorAll('.products');
+// for (const item of np) {
+//     item.addEventListener('wheel', (evt) => {
+//         evt.preventDefault();
+//         evt.scrollLeft += evt.deltaY;
+//     })
+// }
